@@ -11,6 +11,7 @@
     "no-console": "warn",
     "no-unused-vars": "warn",
     "prettier/prettier": "warn",
-    "react/react-in-jsx-scope": "off"
+    "react/react-in-jsx-scope": "off",
+    "react/self-closing-comp": "error"
   }
 }
