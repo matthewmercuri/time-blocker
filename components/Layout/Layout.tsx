@@ -1,9 +1,11 @@
+import styles from './Layout.module.scss';
+
 type LayoutProps = {
-  children: React.ReactNode;
+  children?: React.ReactNode;
 };
 
 const Layout: React.FC<LayoutProps> = ({ children }) => {
-  return <div>{children}</div>;
+  return <div className={styles.test}>{children}</div>;
 };
 
 export default Layout;
